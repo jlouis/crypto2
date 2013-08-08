@@ -5,7 +5,7 @@ PROJECT = crypto2
 ## determine what version is running.
 ##
 ## Right now, I don't care about this detail, however
-ERLC_OPTS += -DHAS_HASH -DHAS_STRONG_RAND_BYTES
+ERLC_OPTS += -DHAS_HASH -DHAS_STRONG_RAND_BYTES +debug_info
 
 include erlang.mk
 
